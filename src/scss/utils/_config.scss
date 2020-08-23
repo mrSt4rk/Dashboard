@@ -1,0 +1,38 @@
+//
+// Paths & Directories
+//
+$asset_dir: "../src/assets/";
+//
+// Fonts definitions
+//
+$myriado-pro: "MyriadPro-Regular",
+Verdana,
+Georgia,
+sans-serif;
+$myriado-bold: "MyriadPro-Semibold",
+Verdana,
+Georgia,
+sans-serif;
+$iran-sans-medium: "IRANSans_Medium",
+Georgia,
+"DejaVu Serif",
+serif;
+$iran-sans-bold: "IRANSans_Bold",
+Georgia,
+"DejaVu Serif",
+serif;
+$iran-sans-regular: "IRANSans",
+Georgia,
+"DejaVu Serif",
+serif;
+$iran-sans-num: "IRANSansMobile(FaNum)",
+Georgia,
+"DejaVu Serif",
+serif;
+$base-font-family: $iran-sans-medium;
+// Colors
+$blue: #1890ff;
+$input-border-color: #d9d9d9;
+.ant-table-row a {
+    color: $blue !important;
+}

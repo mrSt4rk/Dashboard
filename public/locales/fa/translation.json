@@ -1,0 +1,200 @@
+{
+  "isSelfRegistered": {
+    "title": "ثبت نام توسط متقاضی"
+  },
+  "skinColor": "رنگ پوست",
+  "eyeColor": "رنگ چشم",
+  "sex": "جنسیت",
+  "wearingType": "نوع پوشش",
+  "makeup": " آرایش",
+  "MALE": "آقا",
+  "haveSpecialSickness": "بیماری خاص",
+  "specialSicknessName": "نام بیماری خاص",
+  "haveDisability": "معلولیت",
+  "disabilityName": "نوع معلولیت",
+  "documentType": "مدرک",
+  "fileFormat": "فرمت فایل مدرک",
+  "mimetype": "نوع فایل مدرک",
+  "isSearchable": "قابلیت مشاهده توسط دیگران",
+  "otherWealth": "دارایی های دیگر",
+  "jobFields": "فیلد کاری",
+  "havePersonalCar": "اتومبیل شخصی",
+  "havePersonalHouse": " منزل شخصی",
+  "livingInStatus": "با چه کسی زندگی می کند؟",
+  "postalCode": "کد پستی",
+  "_livingLocationCountry": "کشور محل اقامت",
+  "_livingLocationProvince": "استان",
+  "_livingLocationCity": "شهر",
+  "livingLocationAddress": "آدرس",
+  "livingLocationOnMap": "مختصات",
+  "jobContractStatus": "نوع قرارداد شغلی",
+  "averageMonthlyIncomeInTomans": "میانگین درآمد ماهیانه(تومان)",
+  "explanations": "توضیحات",
+  "haveSavings": "پس انداز",
+  "haveHouseAfterMarriage": " منزل پس از ازدواج",
+  "educationStatus": "وضعیت تحصیلی",
+  "educationalGrade": "مدرک تحصیلی",
+  "educationalField": "رشته تحصیلی",
+  "educationDepartmentType": "نوع دپارتمان تحصیلی",
+  "educationDepartmentName": "نام دپارتمان تحصیلی",
+  "hawzahEducation": "تحصیلات حوزوی",
+  "isMoammam": "معمم",
+  "_comeFromCountry": "کشور اصلیت خانوادگی",
+  "_comeFromProvince": "استان اصلیت خانوادگی",
+  "_comeFromCity": "شهر اصلیت خانوادگی",
+  "_citizenShipCountry": "کشور محل اقامت",
+  "_citizenShipProvince": "استان محل اقامت",
+  "_citizenShipCity": "شهر محل اقامت",
+  "livingLocationOnMap": "مختصات",
+  "averageMonthlyIncomeInTomans": "میزان درآمد ماهیانه",
+  "livingAddress": "آدرس محل اقامت",
+  "scientific": "علمی",
+  "art": "هنر",
+  "technical": "مهارت فنی",
+  "entertainment": "سرگرمی",
+  "explanations": "توضیحات",
+  "marriageStatus": "وضعیت تاهل",
+  "lastMarriagePeriod": "مدت آخرین ازدواج",
+  "explanations": "توضیحات",
+  "height": "قد",
+  "weight": "وزن",
+  "educationalGrade": "سطح علمی",
+  "wearing": "پوشش",
+  "howReligious": "اعتقادات مذهبی",
+  "minBirthDate": "کمینه تاریخ تولد",
+  "maxBirthDate": "بیشینه تاریخ تولد",
+  "isMarriedBefore": "ازدواج با همسر که قبلا ازدواج کرده",
+  "haveUnSuccessfulAghd": "ازدواج با همسر، عقد ناموفق",
+  "isDivorced": "ازدواج با همسر طلاق گرفته",
+  "haveDiedPartner": "ازدواج با همسر فوت شده",
+  "haveShahidPartner": "ازدواج با همسر شهید",
+  "acceptsPartnerChild": "پذیرش فرزند همسر",
+  "explanation": "توضیحات",
+  "birthDate": "تاریخ تولد",
+  "soldierShipStatus": "وضعیت خدمت سربازی",
+  "_birthCountry": "کشور محل تولد",
+  "_birthProvince": "استان محل تولد",
+  "_birthCity": "شهر محل تولد",
+  "address": "آدرس",
+  "email":"ایمیل",
+  "isInterestedInLivingOutSideTheCity": "تمایل به زندگی در شهری دیگر",
+  "isInterestedInLivingOutSideTheCountry":"تمایل به زندگی در خارج از کشور",
+  "isInterestedInMeetingOutSideTheHouse": "تمایل به ملاقات خارج از منزل",
+  "politicalInterest": "",
+  "telephoneNumber": "شماره تلفن",
+  "wearingType" : "نوع پوشش",
+  "makeup" : "نوع آرایش",
+  "MALE" : "آقا",
+  "BLACK": "سیاه",
+  "false":"ندارد",
+  "WITH_FAMILY": "با خانواده",
+  "PROJECT_BASED": "پروژه ای",
+  "PEYMANI" : "پیمانی",
+  "AZMAYESHI" : "آزمایشی",
+  "OTHER" : "",
+  "PARE_VAGHT": "پاره وقت",
+  "relationWithRegisterer": "نسبت",
+
+  "GANDOMI_ROSHAN" : "گندمی روشن",
+
+  "SPORT" : "اسپرت",
+  "MANTOO_POOSHIDE": "مانتو پوشیده",
+  "MANTOO_BAZ": "مانتو باز",
+  "WITHOUT_HEJAB": "بدون حجاب",
+
+  "true" : "دارد",
+
+  "SHENASNAME" : "شناسنامه",
+
+  "NORMAL": "متناسب",
+  "UNDER_WEIGHT":"لاغر",
+  "OVER_WEIGHT": "اضافه وزن",
+  "OBESE":"اضافه وزن زیاد",
+
+  "STUDENT" : "دانشجو",
+  "MASTER" : "ارشد",
+  "ASSISTANT": "دستیار",
+  "UNDER_GRADUATE": "فارغ التحصیل",
+  "PHD" : "دکتری",
+
+  "NOT_RELIGIOUS" : "غیرمذهبی",
+  "NORMAL_RELIGIOUS" : "مذهبی معتدل",
+  "NOT_STICKING_TO_NAMAZ": "کاهل نماز",
+
+  "MUSLIM_SHIEE": "مسلمان شیعه",
+
+  "NATIONAL" : "ملی",
+
+  "jobLevel" : "سطح شغلی",
+
+  "livingNeighbourhoodLevel" : "سطح محل سکونت",
+
+  "LEVEL_ONE" : "سطح اول",
+  "LEVEL_TWO": "سطح دوم",
+  "LEVEL_THREE": "سطح سوم",
+  "LEVEL_FOUR": "سطح چهارم",
+  "LEVEL_FIVE": "سطح پنجم",
+
+  "UNDER-3M" : "زیر ۳ میلیون تومان",
+  "3M-5M": "۳ تا ۵ میلیون",
+  "5M-10M": "۵ تا ۱۰ میلیون",
+  "10M-20M": "۱۰ تا ۲۰ میلیون",
+  "ABOVE-20M": "بالاتر از ۲۰ میلیون",
+
+  "UN_SUCCESSFUL_AGHD" : "عقد ناموفق",
+
+  "ONLY_AGHD" : "فقط عقد",
+
+  "no explanation" : "توضیحات ندارد",
+
+  "religion" : "مذهب",
+
+  "UNDEFINED" : "-",
+
+  "WILL_STAY_THERE" : "نه تمایلی ندارم",
+
+  "MOAF_DAEM" : "معافیت دائم",
+
+  "ADMIN" : "مدیر",
+  "GUEST" : "متقاضی",
+
+  "SIX_MONTH" : "۶ ماه",
+
+  "MORE" : "بیش از ۵ سال",
+
+  "educationDepartmentLevel" : "سطح علمی دپارتمان",
+
+  "BMI" : "شاخص BMI",
+
+  "UNDER_155": "کمتر از ۱۵۵",
+  "155_165": "بین ۱۵۵ تا ۱۶۵",
+  "165_175": "بین ۱۶۵ تا ۱۷۵",
+
+  "DIVORCED": "طلاق گرفته",
+
+  "VELAEE":"ولایی",
+  "OSOOL_GARA": "اصول گرا",
+  "ESLAH_TALAB": "اصلاح طلب",
+  "MIANE_RO": "میانه رو",
+
+  "THIN" : "لاغر",
+
+  "i am a developer" : "معمولا درآمد جانبی هم دارم",
+  "a looooooong address" : "خ آزادی کوچه میرعماد پلاک ۱",
+  "programming" : "برنامه نویسی",
+  "computer" : "مهندسی نرم افزار",
+  "nothing": "-",
+
+  "Nothing!": "ندارم",
+
+  "UT" : " فنی و مهندسی",
+  "Kooy daneshgah" : "کوی خوابگاه های دانشگاههای تهران ",
+  "a sickness" : "نارسایی کلیوی",
+  "adressssss" : "خ نواب خ جیحون پلاک ۱۳۲ واحد ۱۲",
+  "5cb8615ae8c74e3830f27683" : "تهران",
+
+  "5cb85f60e8c74e3830f2767f" : "ایران",
+
+  "5cb862b4e8c74e3830f27687" : "تهران"
+
+}

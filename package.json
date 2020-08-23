@@ -1,0 +1,110 @@
+{
+    "name": "@coreui/coreui-free-react-admin-template",
+    "version": "2.6.0",
+    "description": "CoreUI React Open Source Bootstrap 4 Admin Template",
+    "author": "Łukasz Holeczek",
+    "homepage": "https://coreui.io",
+    "copyright": "Copyright 2017-2019 creativeLabs Łukasz Holeczek",
+    "license": "MIT",
+    "private": true,
+    "proxy": "https://lucioadmin.pettzonafrica.com",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:coreui/coreui-free-react-admin-template.git"
+    },
+    "dependencies": {
+        "@coreui/coreui": "^2.1.12",
+        "@coreui/coreui-plugin-chartjs-custom-tooltips": "^1.3.1",
+        "@coreui/icons": "0.3.0",
+        "@coreui/react": "^2.5.1",
+        "@types/react-redux": "^7.1.9",
+        "antd": "^3.21.4",
+        "antd-jalali-moment": "^3.3.2",
+        "axios": "^0.19.0",
+        "bootstrap": "^4.3.1",
+        "chart.js": "^2.8.0",
+        "classnames": "^2.2.6",
+        "core-js": "^3.1.4",
+        "enzyme": "^3.10.0",
+        "enzyme-adapter-react-16": "^1.14.0",
+        "flag-icon-css": "^3.3.0",
+        "font-awesome": "^4.7.0",
+        "http-proxy-middleware": "^1.0.5",
+        "i18next": "^19.0.2",
+        "i18next-browser-languagedetector": "^4.0.1",
+        "i18next-xhr-backend": "^3.2.2",
+        "jalali-moment": "^3.3.3",
+        "leaflet": "^1.6.0",
+        "moment": "^2.24.0",
+        "moment-jalaali": "^0.8.3",
+        "node-sass": "^4.12.0",
+        "prop-types": "^15.7.2",
+        "react": "^16.8.6",
+        "react-app-polyfill": "^1.0.1",
+        "react-chartjs-2": "^2.7.6",
+        "react-container-dimensions": "^1.4.1",
+        "react-datepicker2": "^3.0.3",
+        "react-dom": "^16.8.6",
+        "react-i18next": "^11.2.7",
+        "react-leaflet": "^2.6.1",
+        "react-persian-datepicker": "^3.0.2",
+        "react-redux": "^7.1.0",
+        "react-router-config": "^5.0.1",
+        "react-router-dom": "^5.0.1",
+        "react-test-renderer": "^16.8.6",
+        "reactstrap": "^8.0.0",
+        "redux": "^4.0.4",
+        "redux-saga": "^1.0.5",
+        "redux-thunk": "^2.3.0",
+        "simple-line-icons": "^2.4.1"
+    },
+    "devDependencies": {
+        "@types/reactstrap": "^8.5.1",
+        "babel-core": "^6.26.3",
+        "babel-eslint": "^10.1.0",
+        "babel-plugin-import": "^1.13.0",
+        "css-loader": "^3.6.0",
+        "customize-cra": "^0.7.0",
+        "eslint": "^6.6.0",
+        "eslint-plugin-babel": "^5.3.1",
+        "eslint-plugin-react": "^7.20.6",
+        "postcss-loader": "^3.0.0",
+        "react-app-rewired": "^2.1.6",
+        "react-scripts": "^3.4.1",
+        "typescript": "^3.9"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "test:cov": "npm test -- --coverage --watchAll=false",
+        "test:debug": "react-scripts --inspect-brk test --runInBand",
+        "eject": "react-scripts eject",
+        "lint": "./node_modules/.bin/eslint src",
+        "lint-fixup": "./node_modules/.bin/eslint src --ext .js,.jsx --fix"
+    },
+    "bugs": {
+        "url": "https://github.com/coreui/coreui-free-react-admin-template/issues"
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "browserslist": [
+        ">0.2%",
+        "not dead",
+        "not ie <= 9",
+        "not op_mini all"
+    ],
+    "jest": {
+        "collectCoverageFrom": [
+            "src/**/*.{js,jsx}",
+            "!**/*index.js",
+            "!src/serviceWorker.js",
+            "!src/polyfill.js"
+        ]
+    },
+    "engines": {
+        "node": ">=8.10",
+        "npm": ">=6"
+    }
+}

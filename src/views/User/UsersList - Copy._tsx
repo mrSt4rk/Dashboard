@@ -1,0 +1,137 @@
+import React, { Component } from 'react';
+import { Table, Divider, Tag, Popconfirm, Icon, Spin } from 'antd';
+import {
+  Card,
+  CardBody,
+  CardHeader,
+  Col,
+  Row
+} from 'reactstrap';
+import EditUser from './EditUser'
+import { convertDateToJalali } from '../../Helpers/utils'
+import { Button, Checkbox, Form, Input, Select } from "antd";
+const { Option } = Select;
+
+
+// class UsersList extends Component {
+const UsersList: React.FunctionComponent<Props> = (props) => {
+  constructor(props) {
+    super(props);
+    console.log('proooooooooooooooooooooooooooooooooops', props.fetchedUsers.users);
+
+    this.columns = [
+      {
+        title: 'ID',
+        dataIndex: 'ID',
+        key: 'ID',
+        // render: text => <a href="javascript:;">{text}</a>,
+      },
+      {
+        title: 'Master',
+        dataIndex: 'Master',
+        key: 'Master',
+      },
+      {
+        title: 'Affiliate',
+        dataIndex: 'Affiliate',
+        key: 'Affiliate',
+      },
+      {
+        title: 'Email',
+        dataIndex: 'Email',
+        key: 'Email',
+      },
+      {
+        title: 'Name',
+        dataIndex: 'Name',
+        key: 'Name',
+      },
+      {
+        title: 'Mobile',
+        dataIndex: 'Mobile',
+        key: 'Mobile',
+      },
+      {
+        title: 'Ballance',
+        dataIndex: 'Ballance',
+        key: 'Ballance',
+      },
+      {
+        title: 'Status',
+        dataIndex: 'Status',
+        key: 'Status',
+      },
+      {
+        title: '',
+        dataIndex: '',
+        key: 'x',
+        render: (text, record) =>
+          this.props.fetchedUsers.users.length >= 1 ? (
+            <span>
+              <a onClick={() => this.handleEdit(record.key)}>ویرایش </a>
+            </span>
+
+          ) : null,
+      },
+    ];
+    this.state = {
+      openModal: false,
+      rowId: ''
+    }
+  }
+
+  componentDidMount() {
+    this.props.usersList()
+  }
+
+
+
+  handleEdit = id => {
+    this.props.fetchUser(id)
+    this.setState({
+      rowId: id,
+      openModal: !this.state.openModal
+    })
+  }
+
+
+
+  handleModal = () => {
+    this.setState({
+      openModal: !this.state.openModal
+    })
+  }
+
+  loadForm = () => {
+    // return this.props.fetchedUsers.users.map(item => (
+    //   <FormItem />
+    // ))
+  }
+
+
+  render() {
+    return (
+      <div className="animated fadeIn">
+        <Row className="justify-content-center">
+          <Col xs="12" md="12">
+            <Card>
+              <CardHeader>
+                <strong>فهرست کاربران</strong>
+              </CardHeader>
+              <CardBody>
+                <Spin spinning={this.props.fetchedUsers.loading} delay={500}>
+                  <Form onSubmit={this.handleSubmit}>{this.loadForm()}</Form>
+                  <Table className="rtl text-right" columns={this.columns} dataSource={this.props.fetchedUsers.users} />
+                </Spin>
+                <EditUser dispatch={this.props.updateSingleUser} handleModal={this.handleModal} user={this.props.fetchedUsers.singleUser} open={this.state.openModal} handleSubmit={this.handleEdit} rowId={this.state.rowId} />
+              </CardBody>
+            </Card>
+          </Col>
+        </Row>
+      </div>
+    )
+  }
+
+}
+
+export default UsersList;

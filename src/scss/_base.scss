@@ -1,0 +1,65 @@
+html
+{
+  font-family: $base-font-family;
+  -webkit-font-smoothing: antialiased;
+}
+body{
+  font-family: $iran-sans-regular;
+}
+p{
+  font-family: $iran-sans-medium;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong{
+  font-family: $iran-sans-bold;
+}
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+
+a {
+  text-decoration: none;
+  font-family: $iran-sans-regular;
+}
+
+
+.badge{
+  font-family: $iran-sans-num;
+}
+
+
+table,.ant-table table{
+  text-align: right;
+  th{
+    text-align: right;
+  }
+}
+
+.card-header{
+  background-color: #63c2de !important;
+}
+
+.ant-modal-header{
+  background-color: #63c2de !important;
+}
+
+.ant-table-placeholder{
+  z-index: 0 !important;
+}
+
+.logout {
+  flex: 1;
+  display: flex;
+  justify-content: end;
+  padding-left: 1rem;
+  color: #73818f;
+}
